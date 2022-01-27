@@ -1,5 +1,6 @@
   .header__lang-item {
-    margin-right: 18px;
+    margin-right: 19px;
+    margin-bottom: -15px;
   }
 
   .header__lang-item:last-of-type {
