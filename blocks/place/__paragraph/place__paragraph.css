@@ -1,21 +1,31 @@
   .place__paragraph {
-    margin: 0;
-    margin-bottom: 24px;
-    font-family: Inter;
-    font-style: normal;
+    grid-column: 2;
     font-weight: 400;
     font-size: 18px;
-    line-height: 163%;
-    color: #FFFFFF;
+    line-height: 29.34px;
+    margin: 0 0 25px 0;
+    font-family: Inter, Arial, sans-serif;
   }
 
   .place__paragraph:last-of-type {
     margin-bottom: 0;
   }
 
-  @media screen and (max-width: 1023px) {
+
+  @media screen and (max-width: 768px) {
     .place__paragraph {
       font-size: 16px;
-      line-height: 1.62;
+      line-height: 26.03px;
+      margin: 0 0 25px 0;
     }
+  }  
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    grid-column: 1;
+    margin-left: 16px;
+    margin-right: 16px;
+	font-size: 16px;
+    line-height: 26.03px;
   }
+}

@@ -1,9 +1,17 @@
   .place__site {
     align-self: end;
+    margin-bottom: 48px;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 768px) {
     .place__site {
-      display: none;
+     max-width: 360px;
+     max-height: 46px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__site {
+      margin: 0 16px 0px 16px;
     }
   }
