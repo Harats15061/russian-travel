@@ -4,6 +4,8 @@
     font-size: 72px;
     line-height: 76px;
     font-family: Inter, Arial, sans-serif;
+    align: Left;
+    vertical-align: top;
   }
 
   @media screen and (max-width: 768px) {
@@ -13,9 +15,9 @@
     }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 623px) {
     .place__title {
-      margin-left: 24px;
+      margin-left: 16px;
     }
   }
 
