@@ -4,7 +4,7 @@
     font-size: 72px;
     line-height: 76px;
     font-family: Inter, Arial, sans-serif;
-    align: left;
+    align: Left;
     vertical-align: top;
   }
 
