@@ -8,3 +8,7 @@
     color: #fff;
     font-family: Inter, Arial, sans-serif;
   }
+
+  .place__link:hover {
+    opacity: .8;
+  }
